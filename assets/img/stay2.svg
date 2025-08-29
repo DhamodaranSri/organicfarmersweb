@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+      <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#0B7A4B"/><stop offset="1" stop-color="#FF8A00"/>
+      </linearGradient></defs>
+      <rect width="100%" height="100%" fill="url(#g)"/>
+      <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+            font-family="Inter, Arial" font-size="75" fill="white">Mist Valley Villas</text>
+    </svg>

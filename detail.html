@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Details · OF Treks & Stays</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="detail">
+
+<header class="header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><img src="assets/img/NewLogo_OF.png" alt="OF"><span>OF Treks & Stays</span></a>
+    <!-- <nav class="nav">
+      <a href="stays.html" >Stays</a>
+      <a href="treks.html" >Treks</a>
+      <a href="offers.html" >Offers</a>
+      <a href="gallery.html" >Gallery</a>
+      <a href="locations.html" >Locations</a>
+      <a href="contact.html" >Contact</a>
+    </nav> -->
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </div>
+  <!-- <div id="mnav" class="mobile-nav">
+    <a href="stays.html">Stays</a>
+    <a href="treks.html">Treks</a>
+    <a href="offers.html">Offers</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="locations.html">Locations</a>
+    <a href="contact.html">Contact</a>
+  </div> -->
+</header>
+
+  <section class="hero-detail">
+    <div class="container">
+      <div id="crumb" class="breadcrumb"></div>
+      <div class="title"><h1 id="title">Loading…</h1><p id="subtitle" class="muted"></p></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container info-grid" id="detail-root">
+      <div>
+        <div id="gallery" class="gallery"></div>
+        <!-- <h3>About</h3>
+        <p id="about" class="muted"></p>
+        <h3>Amenities</h3>
+        <ul id="amenities" class="amenities"></ul> -->
+        <!-- <h3>Price</h3> -->
+        <!-- <h2 id="price" class="price">—</h2> -->
+      </div>
+      <aside class="card">
+        <div class="content">
+          <h3>About</h3>
+          <p id="about" class="muted"></p>
+          <h3>Amenities</h3>
+          <ul id="amenities" class="amenities"></ul>
+          <div style="height:8px;"></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container inner footer-flex">
+      <div>
+        <div class="brand" style="color:white">
+          <img src="assets/img/NewLogo_OF.png" alt="logo">
+          <span>OF Treks & Stays</span>
+        </div>
+        <p class="muted" style="color:#cfe7da">Ooty Forest Treks & Stays is a brand of Organic Farmers</p>
+        <p class="muted" style="color:#cfe7da">&copy; 2025 Organic Farmers. All rights reserved.</p>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <p><a href="index.html">Home</a> · <a href="contact.html">Contact</a></p>
+      </div>
+
+      <div>
+        <h3>Contact</h3>
+        <p><a href="mailto:support@organicfarmerscamp.com">support@organicfarmerscamp.com</a><br>
+           <!-- <a href="tel:+919498747494">+91 94987 47494</a> -->
+           <a>+91 94987 47494, +91 94987 47495, +91 82206 40566</a>
+           <br>Catherine Waterfalls, Kotagiri, Nilgiris, India</p>
+      </div>
+    </div>
+  </footer>
+<div id="lightbox" class="lightbox" onclick="closeLightbox()"><button class="close" onclick="closeLightbox()">×</button><img src="" alt=""></div>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/script.js"></script>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script>
+    // Set kind tag based on query param
+    const params = new URLSearchParams(location.search);
+    const kind = params.get('type');
+    document.getElementById('kindTag').innerText = kind === 'treks' ? 'Trek' : 'Stay';
+  </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+      <rect rx="12" width="64" height="64" fill="#0B7A4B"/>
+      <path d="M10 42 L24 22 L34 34 L44 26 L54 42" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="50%" y="85%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, Arial" font-weight="900" font-size="14" fill="#FF8A00">OF</text>
+    </svg>

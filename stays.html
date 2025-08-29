@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Stays · OF Treks & Stays</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><img src="assets/img/NewLogo_OF.png" alt="OF"><span>OF Treks & Stays</span></a>
+    <!-- <nav class="nav">
+      <a href="stays.html" style="background:#f3f4f6;">Stays</a>
+      <a href="treks.html" >Treks</a>
+      <a href="offers.html" >Offers</a>
+      <a href="gallery.html" >Gallery</a>
+      <a href="locations.html" >Locations</a>
+      <a href="contact.html" >Contact</a>
+    </nav> -->
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </div>
+  <!-- <div id="mnav" class="mobile-nav">
+    <a href="stays.html">Stays</a>
+    <a href="treks.html">Treks</a>
+    <a href="offers.html">Offers</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="locations.html">Locations</a>
+    <a href="contact.html">Contact</a>
+  </div> -->
+</header>
+
+
+<section class="section">
+  <div class="container">
+    <h2>Stays</h2>
+    <p class="muted">Resorts, villas, and camps designed for explorers.</p>
+    <div class="grid-3">
+      <a class="card" href="detail.html?type=stays&slug=forest-view-resort"><img src="assets/img/stay1.svg"><div class="content"><h3>Forest View Resort</h3><p class="muted">Kotagiri</p><div class="price">₹3,499 / night</div></div></a>
+      <a class="card" href="detail.html?type=stays&slug=mist-valley-villas"><img src="assets/img/stay2.svg"><div class="content"><h3>Mist Valley Villas</h3><p class="muted">Ooty</p><div class="price">₹5,999 / night</div></div></a>
+      <a class="card" href="detail.html?type=stays&slug=riverside-camps"><img src="assets/img/stay3.svg"><div class="content"><h3>Riverside Camps</h3><p class="muted">Catherine Waterfalls</p><div class="price">₹1,199 / person</div></div></a>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container inner">
+    <div class="grid-3">
+      <div>
+        <div class="brand" style="color:white"><img src="assets/img/logo.svg" alt="logo"><span>OF Treks & Stays</span></div>
+        <p class="muted" style="color:#cfe7da">Escape to the wild. Sleep in comfort. Explore more.</p>
+        <p class="muted" style="color:#cfe7da">&copy; 2025 OF Treks & Stays. All rights reserved.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <p><a href="stays.html">Stays</a> · <a href="treks.html">Treks</a> · <a href="offers.html">Offers</a><br>
+           <a href="gallery.html">Gallery</a> · <a href="locations.html">Locations</a> · <a href="contact.html">Contact</a></p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p><a href="mailto:hello@oftreksandstays.com">hello@oftreksandstays.com</a><br>
+           <a href="tel:+919000000000">+91 90000 00000</a><br>Chennai, India</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="lightbox" class="lightbox" onclick="closeLightbox()"><button class="close" onclick="closeLightbox()">×</button><img src="" alt=""></div>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
