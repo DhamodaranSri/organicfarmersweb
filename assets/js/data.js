@@ -77,10 +77,10 @@ window.DATA = {
     about: "A tranquil hillside hideout surrounded by greenery—crafted for friends and loved ones.",
     gallery: ["assets/img/marayoor/1.jpeg", "assets/img/marayoor/2.jpeg", "assets/img/marayoor/3.jpeg", "assets/img/marayoor/4.jpeg", "assets/img/marayoor/5.jpeg", "assets/img/marayoor/6.jpeg", "assets/img/marayoor/7.jpeg", "assets/img/marayoor/8.jpeg", "assets/img/marayoor/9.jpeg"],
     amenities: ["1 bedroom", "Room service","Parking", "Food", "Campfire", "Smart TV", "Wifi"]
-  }, "Vayanad-Premium-Resort": {
-    title: "Vayanad Premium Resort",
+  }, "Wayanad-Premium-Resort": {
+    title: "Wayanad Premium Resort",
     price: "₹15,999 / night",
-    subtitle: "Vayanad • Couple & Family Stay • Private Resort • Wifi • Parking • Swimming Pool • Campfire • Food",
+    subtitle: "Wayanad • Couple & Family Stay • Private Resort • Wifi • Parking • Swimming Pool • Campfire • Food",
     about: "A warm and inviting villa nestled in the hills—tailored for intimate holidays.",
     gallery: ["assets/img/vayanad/2.jpeg", "assets/img/vayanad/3.jpeg", "assets/img/vayanad/4.jpeg", "assets/img/vayanad/6.jpeg", "assets/img/vayanad/7.jpeg", "assets/img/vayanad/8.jpeg", "assets/img/vayanad/9.jpeg","assets/img/vayanad/10.jpeg", "assets/img/vayanad/11.jpeg", "assets/img/vayanad/13.jpeg", "assets/img/vayanad/1.jpeg", "assets/img/vayanad/5.jpeg"],
     amenities: ["4 bedrooms", "Room service","Parking", "Food", "Campfire", "Smart TV", "Fridge", "Swimming Pool", "Wifi"]
